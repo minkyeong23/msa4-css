@@ -1,0 +1,23 @@
+
+
+
+#id-style {
+  color: violet;
+}
+
+.class-style {
+  color: green;
+}
+
+h1 {
+  color: skyblue;
+}
+
+* {
+ color: red !important;
+}
+
+h1 {
+  color: black;
+}
+

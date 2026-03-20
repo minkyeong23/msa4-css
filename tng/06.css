@@ -1,0 +1,22 @@
+.ddd {
+  font-size: 1.5em;
+  color: #ad3000;
+  font-weight: 600;
+
+ }
+
+li {
+  line-height: 2rem;
+} 
+
+ul {
+  list-style-type: none;
+}
+
+.ddd2 {
+  font-size: 1.5em;
+  color: #bca3ff;
+  text-decoration: line-through;
+  text-decoration-color: #ff0000;
+  line-height: 4rem;
+}
