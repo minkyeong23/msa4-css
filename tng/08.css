@@ -1,0 +1,54 @@
+ fieldset {
+  background-color: black;
+}
+
+.chea {
+  color: #ffb23e;
+  font-weight: 400;
+}
+
+h1 {
+  color: white;
+}
+
+.ch {
+  color: white;
+  font-weight: 400;
+
+}
+
+
+h2 { 
+  text-align: center;
+  color: red;
+}
+
+.PM {
+  color: blue;
+
+}
+
+div { 
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+  
+}
+
+p {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 400;
+  }
+
+
+.wrap {
+  border: 1px solid #000;
+  box-sizing: content-box;
+  width: 600px;
+  
+} 
+
+.left {
+  text-align: left;
+}

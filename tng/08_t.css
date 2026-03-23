@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* 폰트 설정 관련 및 기타 필요에 따른 스타일들 작성 */
+  font-family: 돋움;
+  padding: 5px;
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+}
+
+/* header관련 */
+
+.header {
+  background-color: #000;
+  padding: 20px 20px 10px;
+  margin-bottom: 10px;
+}
+
+.header-title {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.header-info {
+  color: #ffbf49;
+}
+
+/* main 관련 */
+
+.main-title {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+}
+
+.main-content {
+  padding-bottom: 20px;
+  border: 1px solid #808080;
+  border-top-width: 0px;
+  padding: 20px;
+  text-align: center;
+}
+
+.item {
+  margin-bottom: 30px;
+  color: #ff1e1e;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.info {
+  padding: 5px;
+  font-weight: 700;
+}
+
+.highlight-blue {
+  color: #0000ff;
+}
+
+.text-small {
+  font-size: 10px;
+  font-weight: 400;
+}
