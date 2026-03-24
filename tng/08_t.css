@@ -41,7 +41,6 @@ body {
 }
 
 .main-content {
-  padding-bottom: 20px;
   border: 1px solid #808080;
   border-top-width: 0px;
   padding: 20px;
@@ -56,7 +55,7 @@ body {
 }
 
 .info {
-  padding: 5px;
+  margin-bottom: 10px;
   font-weight: 700;
 }
 

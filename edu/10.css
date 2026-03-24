@@ -1,0 +1,65 @@
+div {
+  padding: 20px;
+}
+
+.container {
+  background-color: #3493ff;
+  width: 300px;
+  height: 300vh;
+}
+
+.div-static {
+  background-color: #ffe4c4;
+  /* static: 일반적인 문서의 흐름에 맞춰 배치(default) */
+  position: static;
+}
+
+.div-static:nth-of-type(2) {
+  background-color: #7fffd4;
+}
+
+.div-relative1 {
+  background-color: #e6fa36;
+  position: relative;
+}
+
+.div-relative2 {
+  background-color: #b1751c;
+  /* relative : 기본적으로 static 과 같으나, 자신의 원래 위치를 기준으로 위치 조정 가능 */
+  position: relative;
+  top: 20px;
+  /* left: 50px; */
+  right: -50px;
+}
+
+.div-absolute1 {
+  background-color: #ff8be2;
+  /* absolute: relative가 지정된 상위 요소를 기준으로 위치를 지정 */
+  /* 상위 요소중 relative가 지정된 요소가 없을 시, body를 기준으로 위치를 지정 */
+  position: absolute;
+  top: 0;
+}
+
+.div-absolute2 {
+  background-color: #60ff5a;
+  position: absolute;
+  top: 0;
+}
+
+.div-fixed {
+  background-color: orange;
+  /* fixed: 뷰포트를 기준으로 특정 위치에 고정 시키기 위해 주로 사용 */
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+.div-sticky {
+  background-color: #a6ffff;
+  /* sticky: 자신이 브라우저 화면 밖으로 벗어날 경우 지정한 위치에 고정 */
+  position: sticky;
+  top: 0;
+  /* z-index: 요소의 배치 순서를 결정하는 순서, 숫자가 클수록 우선순위 높음 */
+  z-index: 1;
+}
+

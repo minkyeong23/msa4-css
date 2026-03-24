@@ -1,0 +1,40 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.position1 {
+  top: 30px;
+  right: 350px;
+}
+
+.position2 {
+  right: 80px;
+  top: 100px;
+}
+
+.position3 {
+  top: 350px;
+  right: 350px;
+}
+
+.container {
+  /* border: 1px solid #000; */
+  box-sizing: border-box;
+  width: 600px;
+  height: 600px;
+  position: relative;
+  margin: 10px;
+}
+
+.box /* .position1, .position2, .position3 */ {
+  position: absolute;
+  /* border: 1px solid #000; */
+  width: 200px;
+  height: 200px;
+}
+
+div {
+  border: 1px solid #000;
+}
