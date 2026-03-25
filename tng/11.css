@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: black;
+}
+
+.container {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #000;
+  width: 650px;
+  height: 920px;
+}
+
+.header {
+  background-color: #005000;
+  color: #ffffff;
+  padding: 30px;
+  font-size: 20px;
+}
+
+em { 
+ font-size: 30px;
+ font-weight: 600;
+}
+
+.center {
+  text-align: center;
+  margin: 20px;
+}
+
+.emphasize {
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+  margin: 5px;
+}
+
+.info {
+  padding: 5px;
+  text-align: left;
+  margin-left: 60px;
+}
+
+img {
+  position: relative;
+  left: 370px;
+}

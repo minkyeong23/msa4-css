@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  padding: 5px;
+}
+
+.container {
+  background-color: #ffffff;
+  border: 1px dotted #000;
+  width: 600px;
+  height: 760px;
+  margin: auto;
+  padding: 40px 20px;
+  background-image: url(../edu/t1.jpg);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: right bottom;
+}
+
+.title {
+  background-color: #185f18;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.sub-title {
+  padding: 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+.content-title {
+  color: #ff0000;
+  padding: 15px 0;
+}
+
+.content-list {
+  list-style: none;
+  list-style-position: inside;
+  padding-left: 40px;
+  line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
