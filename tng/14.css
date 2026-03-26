@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+fieldset {
+  margin: 20px;
+  padding: 15px;
+  background-image: url("../edu/bono.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;;
+}
+
+.red::before {
+  content: "*";
+  color: red;
+}
+ 
+.focus:focus {
+  outline: none;
+  border: 3px solid red;
+}
+
+input:checked + label {  
+  color: red;
+}
+
+.i {
+  font-size: 40px;
+  color: hotpink;
+  font-weight: 500;
+}
+
+input {
+  margin: 5px;
+}
+
+button:hover::after {
+  content:"내용을 다시 한 번 확인해 주세요";
+  background: black;
+  color: white;
+  padding: 5px;
+} 
+
+.focus {
+  background: transparent;
+  margin: 5px;
+}
+
+.re {
+  float: inline-start;
+}
