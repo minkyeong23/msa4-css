@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.item {
+  border: 1px solid #000;
+  background-color: #008cff;
+}
+
+.container {
+  width: 400px;
+  height: 500px;
+  padding: 10px;
+  gap: 10px;
+  display: grid;
+  background-color: #6b6b6b;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.my-grid-col-span-2 {
+  grid-column: span 2;
+}
+
+.my-grid-row-span-2 {
+  grid-row: span 2;
+}
+
+
+/* 로우 4개로 해보기 (할 수는 있지만 되도록 가장 작은 아이템에 맞춰 셀을 구성하는 게 좋다) */
+/* .container {
+  width: 400px;
+  height: 500px;
+  background-color: #e48a8a;
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 2fr 2fr 1fr 1fr;
+}
+
+.my-grid-col-span-2 {
+  grid-column: span 2;
+}
+
+.my-grid-row-span-2 {
+  grid-row: span 2;
+} */
