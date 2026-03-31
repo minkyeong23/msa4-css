@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+/* ------------------------------- */
+/* 사이드 바 관련 */
+/* ------------------------------- */
+.side-bar {
+  background-color: #ff3b49;
+}
+
+.side-inner {
+  /* grid iteml 인 `.side-bar`에 position을 줘도 적용이 안 되므로 
+  `side-bar`의 콘텐츠(자식)들을 한 번 더 `.side-inner`로 랩핑 해줬다. */
+  position: sticky;
+  top: 0;
+  color: #ffffff;
+}
+
+.title {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-box {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.nav-title {
+  background-color: #ff5662;
+  padding: 8px 15px; 
+  font-weight: 900;
+}
+
+.nav-list {
+  list-style-type: none;
+
+  /* flex 넣은 이유: 아이템들 간의 간격을 편하게 조절하기 위해 */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+a {
+  display: inline-block;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  padding: 3px 15px;
+}
+
+.nav-list > li:hover {
+  background-color: #000000;
+  transition: all 2s;
+}
+
+
+/* ------------------------------- */
+/* 메인 관련 */
+/* ------------------------------- */
+.main {
+  height: 200vh; /* TODO: 사이드 바 완료시 나중에 꼭 지우기*/
+  background-color: #f5f5f5;
+}
