@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  scroll-behavior: smooth;
+  font-family: 궁서;
+  height: 200vh;
+}
+
+a {
+  background-color: orange;
+  color: #ffffff;
+  border-radius: 5%;
+  border-color: rgb(0, 0, 0, 0);
+  text-decoration: none;
+}
+
+/* header 관련 */
+
+header {
+  display: grid;
+  background-image: url(../choiminkyeong/img/img_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(3, 1fr);
+
+}
+
+
+[class^=header] {
+  padding: 35px;
+}
+
+.header-title {
+  font-size: 30px;
+  grid-row: 2;
+}
+
+.header-info {
+  font-size: 25px;
+  grid-column: 3;
+  grid-row: 2;
+ }
+
+.a1 {
+  margin-left: 35px;
+  font-size: 20px;
+  width: 200px;
+  grid-column: 3;
+  grid-row: 3;
+  height: 50px;
+  padding: 10px;
+}
+
+a:hover {
+  background-color:  rgb(0, 0, 0, 0);
+  transition: all 2s;
+  color: rgb(0, 0, 0, 0);
+}
+
+/* 메인 */
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 10px;
+  padding: 30px;
+
+}
+
+.card {
+  padding: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e7e7e7;
+}
+
+.card-img {
+  padding-top: 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-title {
+  color: #ffffff;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.card-info {
+  padding: 10px;
+} 
+
+.card-a {
+  padding: 20px;
+  font-size: 15px;
+  display: flex;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* footer */
+
+footer {
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  text-align: center;
+  background-color: #242424;
+  color: #ffffff;
+  padding: 20px;
+  font-size: 10px;
+  width: 100%;
+}
